@@ -21,7 +21,7 @@ try:
     print(colored("My Github : https://github.com/ElPoker007", 'blue'))
     print("\n")
     wlan = input(colored("Enter Your Interface Default [wlan0] =====> ", "blue"))
-    tim = input(colored("Set Minutes Of Timeout Default [5] =====> ", "blue"))
+    tim = input(colored("Set Minutes Of The Scan Default [5] =====> ", "blue"))
     lis = input(colored("Enter Your Wordlist =====> ", "blue"))
 
     if wlan == "":
