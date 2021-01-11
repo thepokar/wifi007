@@ -4,13 +4,13 @@ try:
     logo = '''
 
            (                                       
-         ( )\ )       )              )    )     )  
-     (   )(()/(    ( /(   (  (    ( /( ( /(  ( /(  
-     )\ ((_/(_))(  )\()) ))\ )(   )\()))\()) )\()) 
-    ((_) _(_))  )\((_)\ /((_(()\ ((_)\((_)\ ((_)\  
-    | __| | _ \((_| |(_(_))  ((_)/  (_/  (_|__  /  
-    | _|| |  _/ _ | / // -_)| '_| () | () |  / /   
-    |___|_|_| \___|_\_\\___||_|  \__/ \__/  /_/    
+         ( )\ )       )             
+     (   )(()/(    ( /(   (  ( 
+     )\ ((_/(_))(  )\()) ))\ )( 
+    ((_) _(_))  )\((_)\ /((_(()\ 
+    | __| | _ \((_| |(_(_))  ((_) 
+    | _|| |  _/ _ | / // -_)| '_|
+    |___|_|_| \___|_\_\\___||_|  
                                                    
     '''
     print(colored(logo,"red"))
@@ -18,7 +18,7 @@ try:
     print("\n")
     print(colored(
         "My Channel : https://www.youtube.com/channel/UCkmU73jmY7TFUEYF0OGMQFQ", 'blue'))
-    print(colored("My Github : https://github.com/ElPoker007", 'blue'))
+    print(colored("My Github : https://github.com/thepokar", 'blue'))
     print("\n")
     wlan = input(colored("Enter Your Interface Default [wlan0] =====> ", "blue"))
     tim = input(colored("Set Minutes Of The Scan Default [5] =====> ", "blue"))
